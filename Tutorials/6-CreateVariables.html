@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- 1. https://www.youtube.com/watch?v=gdbNrJ52PB4 -->
+<!-- 2. https://www.youtube.com/watch?v=0tykxma-3TU -->
+<!-- 3. https://www.youtube.com/watch?v=Z9GdzsJgFW4 -->
+<!-- 4. https://www.youtube.com/watch?v=0YMBFbRSXa8 -->
+<!-- 5. https://www.youtube.com/watch?v=PJLKDq9DC64 -->
+<!-- 6. https://www.youtube.com/watch?v=yBcecKVeF0k -->
+
+<!-- TOPICS:
+     - Variables
+     - Common DataTypes
+     - Operators
+     - Assignment Operators
+     - Functions
+     - Scopes
+-->
+
+
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+
+    <!-- this calls the "clickingStuff()" JavaScript function under T5! -->
+    <p onclick="clickingStuff()">Click me!</p>
+
+
+    <!-- JavaScript -->
+    <script>
+
+      /* TUTORIAL 1 ---------------------------- */
+      // Variable. Wow.
+      var person = "Potato Person";
+
+      var dog;
+      dog = "Frida";
+
+      document.write(person);
+
+      var num1 = 1;
+      var num2 = 2;
+      document.write(num1 + num2);
+
+      /* TUTORIAL 2 ---------------------------- */
+      // Array!!
+      var animals = ["cat", "dog", "fish", "bear", "bat", "whale"];
+
+      // Object!!
+      var animal = {name:"Kid", animal: "cat", age:3, color:"brown"};
+
+      /* TUTORIAL 3 ---------------------------- */
+      // just listing these out
+      /*
+      5 + 5
+      5 - 5
+      5 * 5
+      5 / 5
+      5 % 5
+      5+=
+      5--
+      ++5
+      --5
+      */
+
+      /* TUTORIAL 4 ---------------------------- */
+      var x = 10;
+      x = 10 + 5;
+      x += 5; // Wow
+
+      /* TUTORIAL 5 ---------------------------- */
+      // User defined functions ~~
+
+      // Create Functions
+      function clickingStuff() {
+        document.write("Clicked");
+      }
+
+      // Call Functions
+      // clickingStuff();
+
+      /* TUTORIAL 6 ---------------------------- */
+      // Scopes!
+      var hi = "hi"; // this is GLOBAL SCOPE bc it is not in any function
+      function myScript(){
+        var hi2 = "hi2"; // this is inside the function's scope
+        document.write(hi);
+      }
+      myScript(); // call function
+
+
+    </script>
+    <!-- End JavaScript -->
+  </body>
+</html>
