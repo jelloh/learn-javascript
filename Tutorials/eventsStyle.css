@@ -1,0 +1,24 @@
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  background-color: #272727;
+  transition: all ease-in-out 300ms;
+}
+
+/* hehe "nav div.littlebox" since our HTML looked like:
+  <div class="littlebox"> ...
+
+  if we used this instead:
+  <div id="littlebox">
+  then we must use "#littlebox" */
+nav div.littlebox {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+}

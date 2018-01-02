@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- 1. https://www.youtube.com/watch?v=gx0oAgvXyE4
+-->
+
+<!-- TOPICS:
+     - Events
+-->
+
+<html>
+  <head>
+    <title>Events!!!</title>
+    <link rel="stylesheet" type="text/css" href="eventsStyle.css">
+  </head>
+
+  <body onload="teehee()"> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ event here -->
+
+    <!-- Navigation with Div box inside -->
+    <nav id="closenav">
+      <div onclick = "toggleNav()" class = "littlebox"></div> <!-- ~~~~~~~~~~~~~ event here -->
+      <!-- "onmouseout" and "onmouseover" are others ... ~~~~~~~~~~~~~~~~~~~~~~~ event here -->
+
+    </nav>
+
+    <!-- JavaScript starts -->
+    <script>
+      var  navStatus = true; // navigation starts "opened"
+
+
+      function toggleNav(){
+        if(navStatus == true){
+          document.getElementById("closenav").style.left = "-300px"; // change CSS
+          navStatus = false;
+        }
+        else{
+          document.getElementById("closenav").style.left = "-0px"; // change CSS
+          navStatus = true;
+        }
+      }
+      function teehee(){
+        alert("Loaded!");
+      }
+
+
+
+    </script>
+    <!-- JavaScript ends -->
+
+  </body>
+
+</html>
