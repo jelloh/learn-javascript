@@ -4,5 +4,3 @@ I want to watch this series eventually: https://www.youtube.com/playlist?list=PL
 
 "**my-app**" is from the tutorial: _Angular 2 Tutorial for Beginners - Build a website using Angular, TypeScript and Node.js_  
 (https://www.youtube.com/watch?v=bJKejcQJqHE)
-
- test test
